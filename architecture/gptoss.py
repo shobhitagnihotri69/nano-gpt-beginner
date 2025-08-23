@@ -12,7 +12,7 @@ class ModelConfig:
     num_key_value_heads: int = 4
     intermediate_size: int = 1024
     num_experts: int = 4
-    experts_per_token: int = 1
+    experts_per_token: int = 2
     max_position_embeddings: int = 4096
     dropout: float = 0.1
 
