@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 from architecture.tokenizer import get_tokenizer
 
-context_len = 4000
+context_len = 2048
 tokenizer   = get_tokenizer()
 
 def generate_text(model, prompt, max_tokens=100, temperature=0.8, top_k=50):
