@@ -6,7 +6,7 @@ GPT_CONFIG = {
     'context_length': 4000,
     'emb_dim': 1260,
     'n_heads': 8,
-    'n_layers': 8,
+    'n_layers': 12,
     'drop_rate': 0.1,
     'qkv_bias': True
 }
