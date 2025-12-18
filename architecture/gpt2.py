@@ -4,7 +4,7 @@ from torch import nn
 GPT_CONFIG = {
     'vocab_size': 201088,
     'context_length': 2048,
-    'emb_dim': 768,
+    'emb_dim': 1024,
     'n_heads': 12,
     'n_layers': 12,
     'drop_rate': 0.1,
