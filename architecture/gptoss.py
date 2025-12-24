@@ -8,7 +8,7 @@ class ModelConfig:
     vocab_size: int = 201088
     hidden_size: int = 512
     num_hidden_layers: int = 12
-    num_attention_heads: int = 16
+    num_attention_heads: int = 8
     num_key_value_heads: int = 4
     intermediate_size: int = 1024
     num_experts: int = 4
