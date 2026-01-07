@@ -34,7 +34,7 @@ class TextDataset(Dataset):
 train_dataset = TextDataset(train_tokens, context_len, context_len)
 val_dataset   = TextDataset(val_tokens,   context_len, context_len)
 
-train_loader  = DataLoader(train_dataset, batch_size=batch_size, shuffle=True,  num_workers=8, pin_memory=True)
+train_loader  = DataLoader(train_dataset, batch_size=batch_size, shuffle=True,  num_workers=4, pin_memory=True)
 val_loader    = DataLoader(val_dataset,   batch_size=batch_size, shuffle=False, num_workers=4, pin_memory=True)
 
 del dataset, train_text, val_text
