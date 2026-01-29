@@ -31,7 +31,7 @@ def trainer(model, train_loader, val_loader, device):
     min_lr      = 3e-5
     max_iters   = 5
     warmup      = 50
-    eval_freq   = 100
+    eval_freq   = 200
     eval_iters  = 10
 
     if os.path.exists("model/gptoss.pt"):
