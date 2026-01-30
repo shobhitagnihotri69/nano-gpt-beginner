@@ -7,7 +7,7 @@ GPT_CONFIG = {
     'emb_dim': 1024,
     'n_heads': 12,
     'n_layers': 8,
-    'drop_rate': 0.05,
+    'drop_rate': 0.1,
     'qkv_bias': False
 }
 
