@@ -30,7 +30,7 @@ def trainer(model, train_loader, val_loader, device):
     lr          = 5e-4
     min_lr      = 1e-5
     max_iters   = 5
-    warmup      = 50
+    warmup      = 100
     eval_freq   = 200
     eval_iters  = 5
 
