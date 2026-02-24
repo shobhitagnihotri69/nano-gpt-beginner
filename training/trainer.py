@@ -29,7 +29,7 @@ def evaluate(model, train_loader, val_loader, device, eval_iter):
 def trainer(model, train_loader, val_loader, device):
     lr          = 1e-4
     min_lr      = 1e-5
-    max_iters   = 5
+    max_iters   = 10
     warmup      = 200
     eval_freq   = 100
     eval_iters  = 5
