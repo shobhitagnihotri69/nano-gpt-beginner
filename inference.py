@@ -5,7 +5,7 @@ from architecture.tokenizer import get_tokenizer
 context_len = 2048
 tokenizer   = get_tokenizer()
 
-def generate_text(model, prompt, max_tokens=100, temperature=0.8, top_k=50):
+def generate_text(model, prompt, max_tokens=200, temperature=0.8, top_k=50):
     device = next(model.parameters()).device
     model.eval()
     idx = torch.tensor(tokenizer.encode(prompt), device=device)
