@@ -10,7 +10,7 @@ class ModelConfig:
     num_hidden_layers: int = 8
     num_attention_heads: int = 8
     num_key_value_heads: int = 2
-    intermediate_size: int = 1024
+    intermediate_size: int = 2048
     num_experts: int = 8
     experts_per_token: int = 2
     max_position_embeddings: int = 4096
