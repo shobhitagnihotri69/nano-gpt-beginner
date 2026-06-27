@@ -14,7 +14,7 @@ class ModelConfig:
     num_experts: int = 4
     experts_per_token: int = 2
     max_position_embeddings: int = 4096
-    dropout: float = 0.1
+    dropout: float = 0.0
 
 
 class RMSNorm(nn.Module):
