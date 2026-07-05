@@ -4,7 +4,7 @@ from torch.utils.data import Dataset, DataLoader
 from architecture.tokenizer import get_tokenizer
 from datasets import load_dataset
 
-batch_size  = 4
+batch_size  = 5
 context_len = 2048
 
 dataset    = load_dataset("roneneldan/TinyStories")
