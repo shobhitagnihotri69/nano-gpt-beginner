@@ -32,7 +32,7 @@ def trainer(model, train_loader, val_loader, device):
     max_iters   = 5
     warmup      = 200
     eval_freq   = 150
-    eval_iters  = 10
+    eval_iters  = 5
 
     if os.path.exists("model/gptoss.pt"):
         model.load_state_dict(torch.load("model/gptoss.pt"))
