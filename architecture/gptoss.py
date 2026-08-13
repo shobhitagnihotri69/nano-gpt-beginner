@@ -9,7 +9,7 @@ class ModelConfig:
     hidden_size: int = 1024
     num_hidden_layers: int = 8
     num_attention_heads: int = 8
-    num_key_value_heads: int = 2
+    num_key_value_heads: int = 4
     intermediate_size: int = 2048
     num_experts: int = 4
     experts_per_token: int = 2
