@@ -3,7 +3,7 @@ from torch import nn
 
 GPT_CONFIG = {
     'vocab_size': 201088,
-    'context_length': 4000,
+    'context_length': 2048,
     'emb_dim': 768,
     'n_heads': 12,
     'n_layers': 12,
